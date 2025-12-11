@@ -4,6 +4,8 @@ import ProUseEffect from "./hooks/ProUseEffect";
 import Lec32 from "./StyleReact/Lec32.jsx";
 import Lec33 from "./StyleReact/Lec33.jsx";
 import Lec34Extcss from "./StyleReact/Lec34Extcss.jsx";
+import Lec35 from "./StyleReact/Lec35.jsx";
+import Lec38useREf from "./hooks/Lec38_useREf.jsx";
 
 function Lecture() {
 	return (
@@ -18,7 +20,11 @@ function Lecture() {
 
 			{/* <Lec33 />    lecture 33 */}
 
-			<Lec34Extcss />    {/* lecture 34 External CSS */}
+			{/* <Lec34Extcss />    lecture 34 External CSS */}
+
+			{/* <Lec35 />    lecture 35 CSS Modules */}
+
+			<Lec38useREf />    {/* lecture 38 useRef Hook */}
 			
 		</div>
 	);

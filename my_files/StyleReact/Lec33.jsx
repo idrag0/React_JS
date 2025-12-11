@@ -25,7 +25,7 @@ function Lec33() {
         setCardStyle({ ...cardStyle, backgroundColor: bgColor, color: textColor });
     }
 
-    const [grid, setGrid] = useState(true);
+    const [grid, setGrid] = useState(true);  // true -> grid view, false -> block view
 
     return (
         <div>

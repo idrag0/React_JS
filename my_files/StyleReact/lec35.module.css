@@ -1,0 +1,33 @@
+
+.heading {
+    color: green;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.imgStyle{
+    width: 100px;
+    height: 100px;;
+}
+
+.card{
+    margin: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 3px 1px #ddd;
+}
+
+.textWrap{
+    padding: 10px;
+    margin: 10px;
+}
+
+.button{
+    padding: 1px;
+    background-color : light green;
+    border-radius: 5px;
+    border: 1px solid rgb(212, 140, 140);
+}
