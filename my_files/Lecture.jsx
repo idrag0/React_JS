@@ -31,7 +31,7 @@ function Lecture() {
 
 			{/* <Lec39Uncontrolled />    lecture 39 Uncontrolled Component */}
 
-			<Lec40ForwdRef/>
+			{/* <Lec40ForwdRef/> */}
 
 			<Lec41useFormStatus/>
 			
