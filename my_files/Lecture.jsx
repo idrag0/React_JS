@@ -8,6 +8,7 @@ import Lec35 from "./StyleReact/Lec35.jsx";
 import Lec38useREf from "./hooks/Lec38_useREf.jsx";
 import Lec39Uncontrolled from "./hooks/Lec39Uncontrolled.jsx";
 import Lec40ForwdRef from "./hooks/Lec40ForwdRef.jsx";
+import Lec41useFormStatus from "./hooks/Lec41useFormStatus.jsx";
 
 function Lecture() {
 	return (
@@ -31,6 +32,8 @@ function Lecture() {
 			{/* <Lec39Uncontrolled />    lecture 39 Uncontrolled Component */}
 
 			<Lec40ForwdRef/>
+
+			<Lec41useFormStatus/>
 			
 		</div>
 	);
