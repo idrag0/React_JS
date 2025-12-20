@@ -9,6 +9,7 @@ import Lec38useREf from "./hooks/Lec38_useREf.jsx";
 import Lec39Uncontrolled from "./hooks/Lec39Uncontrolled.jsx";
 import Lec40ForwdRef from "./hooks/Lec40ForwdRef.jsx";
 import Lec41useFormStatus from "./hooks/Lec41useFormStatus.jsx";
+import Lec42useTransition from "./hooks/Lec42useTransition.jsx";
 
 function Lecture() {
 	return (
@@ -33,7 +34,9 @@ function Lecture() {
 
 			{/* <Lec40ForwdRef/> */}
 
-			<Lec41useFormStatus/>
+			{/* <Lec41useFormStatus/> */}
+
+			<Lec42useTransition/>
 			
 		</div>
 	);
