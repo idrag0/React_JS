@@ -11,6 +11,7 @@ import Lec40ForwdRef from "./hooks/Lec40ForwdRef.jsx";
 import Lec41useFormStatus from "./hooks/Lec41useFormStatus.jsx";
 import Lec42useTransition from "./hooks/Lec42useTransition.jsx";
 import Lec43 from "./hooks/Lec43.jsx";
+import Lec44Drivedstate from "./lec44/Lec44Drivedstate.jsx";
 
 function Lecture() {
 	return (
@@ -39,7 +40,9 @@ function Lecture() {
 
 			{/* <Lec42useTransition/>  lecture 42 useTransition Hook */}
 
-			<Lec43/> {/* lecture 43 Keeping Components Pure */}
+			{/* <Lec43/> lecture 43 Keeping Components Pure */}
+
+			<Lec44Drivedstate/> {/* lecture 44 Drived State */}
 
 
 			
