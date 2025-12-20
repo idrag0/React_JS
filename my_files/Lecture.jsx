@@ -10,6 +10,7 @@ import Lec39Uncontrolled from "./hooks/Lec39Uncontrolled.jsx";
 import Lec40ForwdRef from "./hooks/Lec40ForwdRef.jsx";
 import Lec41useFormStatus from "./hooks/Lec41useFormStatus.jsx";
 import Lec42useTransition from "./hooks/Lec42useTransition.jsx";
+import Lec43 from "./hooks/Lec43.jsx";
 
 function Lecture() {
 	return (
@@ -36,7 +37,11 @@ function Lecture() {
 
 			{/* <Lec41useFormStatus/> */}
 
-			<Lec42useTransition/>
+			{/* <Lec42useTransition/>  lecture 42 useTransition Hook */}
+
+			<Lec43/> {/* lecture 43 Keeping Components Pure */}
+
+
 			
 		</div>
 	);
