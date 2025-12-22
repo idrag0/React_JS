@@ -12,6 +12,7 @@ import Lec41useFormStatus from "./hooks/Lec41useFormStatus.jsx";
 import Lec42useTransition from "./hooks/Lec42useTransition.jsx";
 import Lec43 from "./hooks/Lec43.jsx";
 import Lec44Drivedstate from "./lec44/Lec44Drivedstate.jsx";
+import Lec45Lifting from "./lec44/Lec45Lifting.jsx";
 
 function Lecture() {
 	return (
@@ -42,7 +43,9 @@ function Lecture() {
 
 			{/* <Lec43/> lecture 43 Keeping Components Pure */}
 
-			<Lec44Drivedstate/> {/* lecture 44 Drived State */}
+			{/* <Lec44Drivedstate/> lecture 44 Drived State */}
+
+			<Lec45Lifting/> {/* lecture 45 Lifting State Up */}
 
 
 			
