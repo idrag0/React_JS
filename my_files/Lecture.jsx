@@ -13,6 +13,7 @@ import Lec42useTransition from "./hooks/Lec42useTransition.jsx";
 import Lec43 from "./hooks/Lec43.jsx";
 import Lec44Drivedstate from "./lec44/Lec44Drivedstate.jsx";
 import Lec45Lifting from "./lec44/Lec45Lifting.jsx";
+import Lec46Updating_obj from "./lec44/Lec46Updating_obj.jsx";
 
 function Lecture() {
 	return (
@@ -45,7 +46,9 @@ function Lecture() {
 
 			{/* <Lec44Drivedstate/> lecture 44 Drived State */}
 
-			<Lec45Lifting/> {/* lecture 45 Lifting State Up */}
+			{/* <Lec45Lifting/> lecture 45 Lifting State Up */}
+
+			<Lec46Updating_obj/> {/* lecture 46 Updating Object in State */}
 
 
 			
