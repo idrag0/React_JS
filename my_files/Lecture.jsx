@@ -14,6 +14,7 @@ import Lec43 from "./hooks/Lec43.jsx";
 import Lec44Drivedstate from "./lec44/Lec44Drivedstate.jsx";
 import Lec45Lifting from "./lec44/Lec45Lifting.jsx";
 import Lec46Updating_obj from "./lec44/Lec46Updating_obj.jsx";
+import Lec47Updating_array from "./lec44/Lec47Updating_array.jsx";
 
 function Lecture() {
 	return (
@@ -48,8 +49,9 @@ function Lecture() {
 
 			{/* <Lec45Lifting/> lecture 45 Lifting State Up */}
 
-			<Lec46Updating_obj/> {/* lecture 46 Updating Object in State */}
-
+			{/* <Lec46Updating_obj/> lecture 46 Updating Object in State */}
+            
+			<Lec47Updating_array/> {/* lecture 47 Updating Array in State */}
 
 			
 		</div>
