@@ -18,6 +18,7 @@ import Lec47Updating_array from "./lec44/Lec47Updating_array.jsx";
 import Lec48useActionStateHook from "./hooks/Lec48useActionStateHook.jsx";
 import Lec49Use_id from "./hooks/Lec49Use_id.jsx";
 import Lec50Fragments from "./hooks/Lec50Fragments.jsx";
+import Lec52Context_api from "./Api/Lec52Context_api.jsx";
 
 function Lecture() {
 	return (
@@ -60,8 +61,9 @@ function Lecture() {
 
 			{/* <Lec49Use_id />  lecture 49 useId Hook */}
 
-			<Lec50Fragments/>
-			
+			{/* <Lec50Fragments/> */}  
+
+			<Lec52Context_api />  {/* lecture 52 Context API in React JS */}
 		</div>
 	);
 }
