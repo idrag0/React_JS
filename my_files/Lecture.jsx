@@ -1,4 +1,6 @@
 import React from "react";
+import { Router } from "react-router";
+import { BrowserRouter } from "react-router";
 import Lec26 from "./Lec26";
 import ProUseEffect from "./hooks/ProUseEffect";
 import Lec32 from "./StyleReact/Lec32.jsx";
@@ -20,6 +22,9 @@ import Lec49Use_id from "./hooks/Lec49Use_id.jsx";
 import Lec50Fragments from "./hooks/Lec50Fragments.jsx";
 
 import Lec53_CustomHook from "./hooks/Lec53_CustomHook.jsx";
+
+import Reouter_react_lec54 from "./React_Router/Router_react_lec54.jsx";
+
 
 function Lecture() {
 	return (
@@ -66,7 +71,10 @@ function Lecture() {
 
 			{/* <Lec52Context_api />  lecture 52 Context API in React JS */}
 
-			<Lec53_CustomHook />  {/* lecture 53 Custom Hook in React JS */}
+			{/* <Lec53_CustomHook />  lecture 53 Custom Hook in React JS */}
+
+			<Reouter_react_lec54 />  {/* lecture 54 React Router in React JS */}
+			
 		</div>
 	);
 }
