@@ -27,8 +27,33 @@ body{
 }
 
 .collegePage .navLink{
-    fort-size: 18px;
+    font-size: 18px;
     text-decoration: none;  
     margin: 10px;
     
+}
+
+.loginPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.loginPage inputfield {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 200px;
+}
+
+#loginbnt {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
 }

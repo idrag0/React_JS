@@ -9,6 +9,8 @@ import Faculty6 from './Faculty6';
 import Depart6 from './Depart6';
 import Details6 from './Details6';
 import Login from './Login';
+import User9 from './User9';
+import UserDetails9 from './UserDetails9';
 
 
 function Router7(){
@@ -27,6 +29,7 @@ function Router7(){
                         <li><Link to="/about">About</Link></li>
                         <li><Link to="/contact">Contact</Link></li>
                         <li><Link to="/college">College</Link></li>
+                        <li><Link to="/users">Users</Link></li>
                         <li><Link to="/user/login">Login</Link></li>
 
                     </ul>
@@ -39,7 +42,7 @@ function Router7(){
     )
 }
 
-function Router7App() {
+function DynamicRouting9() {
 
     return (
         <div>
@@ -50,7 +53,9 @@ function Router7App() {
                     <Route path='/' element={<h1>Home Page</h1>} />
                     <Route path='/about' element={<h1>About Page</h1>} />
                     <Route path='/contact' element={<h1>Contact Page</h1>} />
+                    <Route path='/users' element={<User9 />} />
                     <Route path='/user/login' element={<Login />} />
+                    <Route path='/users/:id' element={<UserDetails9/>} />
                 
                 </Route>
 
@@ -69,4 +74,4 @@ function Router7App() {
     )
 }
 
-export default Router7App;
+export default DynamicRouting9;
