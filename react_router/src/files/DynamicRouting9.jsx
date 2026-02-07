@@ -31,6 +31,7 @@ function Router7(){
                         <li><Link to="/college">College</Link></li>
                         <li><Link to="/users">Users</Link></li>
                         <li><Link to="/user/login">Login</Link></li>
+                        <li><Link to="/users/list?">List</Link></li>
 
                     </ul>
                 </div>
@@ -56,6 +57,7 @@ function DynamicRouting9() {
                     <Route path='/users' element={<User9 />} />
                     <Route path='/user/login' element={<Login />} />
                     <Route path='/users/:id' element={<UserDetails9/>} />
+                    <Route path='/users/list?' element={<User9 />} />
                 
                 </Route>
 
