@@ -1,6 +1,7 @@
 import './App.css'
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
 import Router2 from './files/Router2'
+import Router7 from './files/Router7';
 
 
 
@@ -24,8 +25,9 @@ function App() {
     // </BrowserRouter>
 
     <div>
-      <Router2 />  
+      {/* <Router2 />   */}
 
+      <Router7 />
       
     </div>
   )

@@ -4,18 +4,20 @@ import Student6 from "./Student6";
 import Details6 from "./Details6";
 import Faculty6 from "./Faculty6";
 import Depart6 from "./Depart6";
+import './router2.css'
 
 
 
 export default function College() {
     return (
         <>
-            <div style={{ textAlign: 'center' }}>
+            <div className="collegePage" style={{ textAlign: 'center' }}>
                 <h1>College Page</h1>
-                <NavLink to="student">Student</NavLink>
-                <NavLink to="department">Department</NavLink>
-                <NavLink to="faculty">Faculty</NavLink>
-                <NavLink to="details">College Details</NavLink>
+                <NavLink className="navLink" to="/">Home</NavLink>
+                <NavLink className="navLink" to="student">Student</NavLink>
+                <NavLink className="navLink" to="department">Department</NavLink>
+                <NavLink className="navLink" to="faculty">Faculty</NavLink>
+                <NavLink className="navLink" to="details">College Info</NavLink>
             </div>
             {/* <Routes>
                 <Route path="student" element={<Student6 />} />

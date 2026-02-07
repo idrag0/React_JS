@@ -25,3 +25,10 @@ body{
     font-size: 20px;
 
 }
+
+.collegePage .navLink{
+    fort-size: 18px;
+    text-decoration: none;  
+    margin: 10px;
+    
+}
