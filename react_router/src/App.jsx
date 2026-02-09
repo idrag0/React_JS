@@ -3,6 +3,7 @@ import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
 import Router2 from './files/Router2'
 import Router7 from './files/Router7';
 import DynamicRouting9 from './files/DynamicRouting9';
+import Api55 from '../../API_React_55/Api55';
 
 
 
@@ -29,7 +30,10 @@ function App() {
       {/* <Router2 />   */}
 
       {/* <Router7 /> */}
-      <DynamicRouting9 />
+      {/* <DynamicRouting9 /> */}
+
+      <Api55 />
+
     </div>
   )
 }
