@@ -9,20 +9,26 @@ function Api55(){
     },[])
 
     async function getUserData(){
-        const url = "https://jsonplaceholder.typicode.com/users";
+        const url = "http://localhost:3000/users";
 
         let data  = await fetch(url);
         data = await data.json();
 
         setResponse(data);
-        console.log(data);
+        console.log(response);
 
     }
     return(
-        <div>
+        <div style={{marginLeft : '10px'}}>
             <h1>API 55</h1>
 
-            <p>{JSON.stringify(response)}</p>
+            {
+                response.map((item)=>(
+                    <div>
+                        <h4>{item.name}</h4>
+                    </div>
+                ))
+            }
 
         </div>
     )

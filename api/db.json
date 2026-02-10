@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Leanne Graham",
+      "username": "Bret",
+      "email": "leanne.graham@example.com",
+      "address": "Kulas Light"
+    },
+    {
+      "id": "2",
+      "name": "Ervin Howell",
+      "username": "Antonette",
+      "email": "ervin.howell@example.com",
+      "address": "Victor Plains"
+    },
+    {
+      "id": "3",
+      "name": "Clementine Bauch",
+      "username": "Samantha",
+      "email": "clementine.bauch@example.com",
+      "address": "Douglas Extension"
+    }
+  ]
+}
