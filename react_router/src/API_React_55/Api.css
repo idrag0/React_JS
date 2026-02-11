@@ -8,3 +8,14 @@
     border-color: green;
 
 }
+
+.navBar{
+    list-style: none;
+    margin: 20px;
+    display: flex;
+}
+
+.navBar li{
+    margin: 20px;
+    padding: 10px;
+}
