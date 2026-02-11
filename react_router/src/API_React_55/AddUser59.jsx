@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+// this contains lecture 59 and lecture 60 
+// Post method and API Router
 
 function AddUser59(){
 
@@ -11,6 +13,7 @@ function AddUser59(){
         const url = "http://localhost:3000/users";
         
         const data = {
+            id : Math.floor(Math.random()*1000),
             name : name,
             email : email,
             address : address
@@ -34,7 +37,7 @@ function AddUser59(){
            <h1>Add User 59</h1>
 
            <input type="text" onChange={(e)=>setName(e.target.value)} id="name"placeholder="Enter name" /><br /><br />
-           <input type="text" onChange={(e)=>setEmail(e.target.value)} id="email" placeholder="Enter email" /><br /><br />
+           <input type="email" onChange={(e)=>setEmail(e.target.value)} id="email" placeholder="Enter email" /><br /><br />
            <input type="text" onChange={(e)=>setAddress(e.target.value)} id="address" placeholder="Enter adress" /><br /><br />
            <button onClick={adduserdata}>Add User</button>
         

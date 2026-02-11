@@ -2,6 +2,7 @@ import './App.css'
 
 import Api_router59 from './API_React_55/Api_router59';
 import Integrate_Json_api from './API_React_55/Integrate_Json_api';
+import Api_Delete61 from './API_React_55/Api_Delete61';
 
 
 
@@ -34,7 +35,9 @@ function App() {
 
       {/* <Integrate_Json_api/> */}
 
-      <Api_router59 />
+      {/* <Api_router59 /> */}
+
+      <Api_Delete61 />
     </div>
   )
 }
