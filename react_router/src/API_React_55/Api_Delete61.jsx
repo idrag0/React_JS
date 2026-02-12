@@ -3,7 +3,7 @@ import { useState } from "react";
 import './Api.css';
 import { Link, Routes, Route, useNavigate } from "react-router-dom";
 import AddUser59 from "./AddUser59";
-import EditUser62 from "./EditUser62";
+import EditUser62 from "./EditUser_PUT_62";
 
 function Api_Delete61() {
 

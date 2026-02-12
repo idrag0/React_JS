@@ -5,7 +5,7 @@ import { useNavigate, useParams } from "react-router";
 // this contains lecture 61 and lecture 62 GET & PUT method and API Router
 
 
-function EditUser_PUT_62(){
+function EditUser_PUT_64(){
     const id = useParams().id;
     
     useEffect(()=>{
@@ -67,4 +67,4 @@ function EditUser_PUT_62(){
     )
 }
 
-export default EditUser_PUT_62;
+export default EditUser_PUT_64;
