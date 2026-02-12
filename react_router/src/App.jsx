@@ -1,4 +1,5 @@
 import './App.css'
+import Validation66 from './Lec65/Validation66';
 
 // import Api_router59 from './API_React_55/Api_router59';
 // import Integrate_Json_api from './API_React_55/Integrate_Json_api';
@@ -40,7 +41,9 @@ function App() {
 
       {/* <Api_Delete61 /> */}
 
-      <Validation_Input65 />
+      {/* <Validation_Input65 /> */}
+
+      <Validation66/>
 
       
     </div>
