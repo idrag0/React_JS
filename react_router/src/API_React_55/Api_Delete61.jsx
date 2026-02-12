@@ -1,8 +1,9 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import './Api.css';
-import { Link, Routes, Route } from "react-router-dom";
+import { Link, Routes, Route, useNavigate } from "react-router-dom";
 import AddUser59 from "./AddUser59";
+import EditUser62 from "./EditUser62";
 
 function Api_Delete61() {
 
@@ -18,6 +19,8 @@ function Api_Delete61() {
             <Routes>
                 <Route index path="/" element={<HomeList />} />
                 <Route path="/adduser" element={<AddUser59 />} />
+                <Route path="/edituser/:id" element={<EditUser62/>} />
+
             </Routes>
 
 
@@ -31,6 +34,7 @@ function HomeList() {
     const [loding, setLoading] = useState(false);
 
     const [users, setUsers] = useState([]);
+    const navigate = useNavigate();
 
     useEffect(() => {
         setLoading(true);
@@ -63,6 +67,10 @@ function HomeList() {
         }
     }
 
+    const editUser = (id)=>{
+        navigate("/edituser/"+id);
+    }
+
     return (
         <div>
             <div>
@@ -81,7 +89,11 @@ function HomeList() {
                                 <li>{item.name}</li>
                                 <li>{item.email}</li>
                                 <li>{item.address}</li>
-                                <li><button onClick={()=>deleteData(item.id)}>Delete</button></li>
+                                <li>
+                                    <button onClick={()=>deleteData(item.id)}>Delete</button>
+                                    <button onClick={()=>editUser(item.id)}>Edit</button>
+                                
+                                </li>
                             </ul>
                         ))
                         : <h1>Loading...</h1>

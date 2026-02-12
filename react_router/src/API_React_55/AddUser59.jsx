@@ -26,6 +26,8 @@ function AddUser59(){
 
         response = await response.json();
 
+        console.log(response);  
+
         if(response){
             alert("User added successfully");
         }
