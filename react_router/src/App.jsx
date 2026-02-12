@@ -1,8 +1,9 @@
 import './App.css'
 
-import Api_router59 from './API_React_55/Api_router59';
-import Integrate_Json_api from './API_React_55/Integrate_Json_api';
-import Api_Delete61 from './API_React_55/Api_Delete61';
+// import Api_router59 from './API_React_55/Api_router59';
+// import Integrate_Json_api from './API_React_55/Integrate_Json_api';
+// import Api_Delete61 from './API_React_55/Api_Delete61';
+import Validation_Input65 from './Lec65/Validation_Input65';
 
 
 
@@ -37,7 +38,11 @@ function App() {
 
       {/* <Api_router59 /> */}
 
-      <Api_Delete61 />
+      {/* <Api_Delete61 /> */}
+
+      <Validation_Input65 />
+
+      
     </div>
   )
 }
