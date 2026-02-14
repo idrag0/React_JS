@@ -1,4 +1,5 @@
 import './App.css'
+import UseReducerHook67 from './Hook67/UseREducerHook67';
 import Validation66 from './Lec65/Validation66';
 
 // import Api_router59 from './API_React_55/Api_router59';
@@ -43,7 +44,9 @@ function App() {
 
       {/* <Validation_Input65 /> */}
 
-      <Validation66/>
+      {/* <Validation66/> */}
+
+      <UseReducerHook67 />
 
       
     </div>
