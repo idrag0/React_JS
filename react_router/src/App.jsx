@@ -1,4 +1,6 @@
 import './App.css'
+import LazyLoading67 from './Hook67/LazyLoading67';
+import LazyLoading68 from './Hook67/LazyLoading67';
 import UseReducerHook67 from './Hook67/UseREducerHook67';
 import Validation66 from './Lec65/Validation66';
 
@@ -46,7 +48,9 @@ function App() {
 
       {/* <Validation66/> */}
 
-      <UseReducerHook67 />
+      {/* <UseReducerHook67 /> */}
+
+      <LazyLoading67 />
 
       
     </div>
