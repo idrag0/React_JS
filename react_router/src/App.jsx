@@ -1,5 +1,6 @@
 import UseAPI68 from './API_React/UseAPI68';
 import './App.css'
+import Activity70 from './Hook67/Activity70';
 import LazyLoading67 from './Hook67/LazyLoading67';
 import LazyLoading68 from './Hook67/LazyLoading67';
 import UseReducerHook67 from './Hook67/UseREducerHook67';
@@ -53,7 +54,9 @@ function App() {
 
       {/* <LazyLoading67 /> */}
 
-      <UseAPI68 />
+      {/* <UseAPI68 /> */}
+
+      <Activity70 />
 
       
     </div>
