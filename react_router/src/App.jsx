@@ -1,3 +1,4 @@
+import UseAPI68 from './API_React/UseAPI68';
 import './App.css'
 import LazyLoading67 from './Hook67/LazyLoading67';
 import LazyLoading68 from './Hook67/LazyLoading67';
@@ -50,7 +51,9 @@ function App() {
 
       {/* <UseReducerHook67 /> */}
 
-      <LazyLoading67 />
+      {/* <LazyLoading67 /> */}
+
+      <UseAPI68 />
 
       
     </div>
