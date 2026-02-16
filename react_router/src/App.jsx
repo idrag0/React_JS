@@ -3,6 +3,7 @@ import './App.css'
 import Activity70 from './Hook67/Activity70';
 import LazyLoading67 from './Hook67/LazyLoading67';
 import LazyLoading68 from './Hook67/LazyLoading67';
+import UseEffectEvent71 from './Hook67/UseEffectEvent71';
 import UseReducerHook67 from './Hook67/UseREducerHook67';
 import Validation66 from './Lec65/Validation66';
 
@@ -56,7 +57,9 @@ function App() {
 
       {/* <UseAPI68 /> */}
 
-      <Activity70 />
+      {/* <Activity70 /> */}
+
+      <UseEffectEvent71 />
 
       
     </div>
