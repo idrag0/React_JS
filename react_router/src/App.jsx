@@ -11,6 +11,8 @@ import Validation66 from './Lec65/Validation66';
 // import Integrate_Json_api from './API_React_55/Integrate_Json_api';
 // import Api_Delete61 from './API_React_55/Api_Delete61';
 import Validation_Input65 from './Lec65/Validation_Input65';
+import Props_Children from './Props_practise/Props_Children';
+
 
 
 
@@ -59,10 +61,13 @@ function App() {
 
       {/* <Activity70 /> */}
 
-      <UseEffectEvent71 />
+      {/* <UseEffectEvent71 /> */}
+
+      <Props_Children />
 
       
     </div>
+    
   )
 }
 
