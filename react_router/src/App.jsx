@@ -12,6 +12,8 @@ import Validation66 from './Lec65/Validation66';
 // import Api_Delete61 from './API_React_55/Api_Delete61';
 import Validation_Input65 from './Lec65/Validation_Input65';
 import Props_Children from './Props_practise/Props_Children';
+import Navbar from './React_Redux_toolKit/Navbar';
+import UserDetails from './React_Redux_toolKit/UserDetails';
 
 
 
@@ -63,7 +65,10 @@ function App() {
 
       {/* <UseEffectEvent71 /> */}
 
-      <Props_Children />
+      {/* <Props_Children /> */}
+
+      <Navbar />
+      <UserDetails />
 
       
     </div>
