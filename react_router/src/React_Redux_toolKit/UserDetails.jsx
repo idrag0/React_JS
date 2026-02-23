@@ -1,14 +1,19 @@
 import React from "react";
 import DeleteAllUser from "./DeleteAllUser";
 import styled from "styled-components";
+import {fakeapi} from "./redux/fakeapi";
 
 const UserDetails = () => {
+
+  const addNewUser = (data) =>{
+    console.log(data);
+  }
   return (
     <Wrapper>
       <div className="content">
         <div className="admin-table">
           <div className="admin-subtitle">List of User Details</div>
-          <button className="btn add-btn">Add New Users</button>
+          <button className="btn add-btn" onClick={() => addNewUser(fakeapi)}>Add New Users</button>
         </div>
         <ul>
           {/* <li>Hi</li>
